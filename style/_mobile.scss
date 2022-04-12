@@ -1,0 +1,246 @@
+@media screen and (max-width: 320px) {
+  .row {
+    width: 320px;
+  }
+
+  .p--10 {
+    padding-left: 10px;
+  }
+
+  .bg-head {
+    @include WH(310px, 540px);
+    background-image: url("../images/Background2.png");
+    background-position: inherit;
+  }
+
+  .header {
+    &__top {
+      padding: 20px 58px;
+      height: 197px;
+      flex-direction: column-reverse;
+    }
+    &__logo {
+      padding-top: 0px;
+      padding-left: 28px;
+      font-size: 20px;
+      line-height: 24px;
+    }
+    &__motto {
+      @include WH(296px, 74px);
+      margin-top: 7px;
+      padding-left: 10px;
+      font-size: 30px;
+      line-height: 37px;
+    }
+    &__motto-small {
+      width: 250px;
+      margin: auto;
+      margin-top: 5px;
+      padding-left: 10px;
+      font-size: 18px;
+    }
+  }
+  .btn-danger {
+    width: 280px;
+    margin-top: 16px;
+    margin-left: 20px;
+  }
+
+  .dream {
+    width: 300px;
+    padding-top: 34px;
+    &__cards {
+      padding-top: 15px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  .card {
+    @include WH(300px, 240px);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    &__step {
+      padding: 30px 20px;
+    }
+    &__text {
+      padding: 15px 32px 15px 20px;
+    }
+  }
+
+  .bg-1 {
+    background-image: url("../images/Step\ small1.png");
+  }
+  .bg-2 {
+    background-image: url("../images/Step\ small2.png");
+  }
+  .bg-3 {
+    background-image: url("../images/Step\ small3.png");
+  }
+
+  .p--slogan {
+    padding-top: 16px;
+    padding-bottom: 10px;
+  }
+
+  .partner {
+    width: 300px;
+    padding-top: 26px;
+    &__users {
+      justify-content: center;
+      padding-top: 14px;
+    }
+    &__btn {
+      width: 280px;
+      margin-top: 36px;
+    }
+  }
+
+  .user {
+    &:nth-of-type(2) {
+      margin-top: 35px;
+    }
+    &:nth-of-type(3),
+    &:nth-of-type(4) {
+      margin-top: 16px;
+    }
+  }
+
+  .btn-border-danger {
+    width: 280px;
+  }
+
+  .holiday {
+    width: 300px;
+    padding-top: 35px;
+    &__images {
+      padding-top: 33px;
+    }
+    &__title {
+      padding: 0 20px;
+    }
+  }
+
+  .picture {
+    @include WH(300px, 120px);
+    &:nth-of-type(1) {
+      background-image: url("../images/sport-small.png");
+      background-position: 0px;
+    }
+    &:nth-of-type(2) {
+      background-image: url("../images/wellness-small.png");
+      background-position: 0px;
+      margin-top: 10px;
+    }
+    &:nth-of-type(3) {
+      background-image: url("../images/extreme-small.png");
+      background-position: 0px;
+      margin-top: 10px;
+    }
+    &:nth-of-type(4) {
+      background-image: url("../images/game-small.png");
+      background-position: 0px;
+    }
+
+    &:nth-of-type(5) {
+      background-image: url("../images/culture-small.png");
+      background-position: 0px;
+    }
+    &:nth-of-type(6) {
+      background-image: url("../images/relax-small.png");
+    }
+    &:nth-of-type(7) {
+      background-image: url("../images/trev-small.png");
+    }
+  }
+
+  .m--pic {
+    margin-top: 10px;
+  }
+
+  .center--caption {
+    width: 200px;
+    text-align: center;
+  }
+
+  .crate {
+    width: 280px;
+    margin: 0 auto;
+    padding-top: 35px;
+    &__search {
+      padding-top: 19px;
+    }
+  }
+
+  .btn-search {
+    width: 280px;
+    margin: 0;
+    margin-top: 10px;
+    padding: 12px 76px 11px 87px;
+  }
+
+  .search {
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+
+  .footer-content {
+    margin-top: 40px;
+    padding: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    &__logo {
+      margin-top: 20px;
+    }
+    &__links {
+      padding-left: 2px;
+      padding-top: 13px;
+    }
+    &__partners {
+      padding-right: 0;
+      padding-top: 6px;
+    }
+  }
+
+  .text-search {
+    padding-left: 2px;
+  }
+
+  .footer-logo {
+    width: 280px;
+    text-align: center;
+  }
+
+  .list-title {
+    @include WH(280px, 15px);
+    text-align: center;
+  }
+
+  .list {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 3px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    &:nth-of-type(5) {
+      padding-left: 15px;
+    }
+    &:nth-of-type(6) {
+      padding-right: 16px;
+    }
+  }
+
+  .logo-development {
+    width: 116px;
+    padding-top: 16px;
+    padding-left: 3px;
+    &__text {
+      text-align: center;
+    }
+  }
+}

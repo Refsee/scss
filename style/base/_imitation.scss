@@ -1,0 +1,17 @@
+%flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+%flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+%page{
+    width: 940px;
+    padding-top: 90px;
+    margin: 0 auto;
+}
+
+

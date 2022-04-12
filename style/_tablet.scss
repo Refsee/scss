@@ -1,0 +1,147 @@
+@media screen and (max-width: 768px) {
+  .row {
+    width: 768px;
+  }
+
+  .bg-head {
+    background-position: -336px;
+  }
+
+  .header {
+    &__top {
+      padding: 40px 50px 0 46px;
+    }
+    &__logo{
+padding-top: 6px;
+padding-left: 2px;
+    }
+  }
+
+  .dream {
+    width: 748px;
+    padding-top: 95px;
+  }
+
+  .title-section {
+    line-height: 27px;
+    font-size: 22px;
+  }
+
+  .card {
+    @include WH(236px, 400px);
+    &__step {
+      padding: 16px 20px;
+    }
+    &__slogan {
+      padding: 0 20px 9px 20px;
+    }
+    &__text {
+      padding: 15px 20px;
+    }
+  }
+
+  .slogan {
+    line-height: 14px;
+  }
+
+  .p--slogan {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .partner {
+    width: 492px;
+    padding-top: 94px;
+    &__btn {
+      margin-top: 40px;
+    }
+  }
+
+  .user {
+    width: 236px;
+    &:nth-of-type(1) {
+      order: 1;
+    }
+    &:nth-of-type(2) {
+      margin-top: 54px;
+      order: 3;
+    }
+    &:nth-of-type(3) {
+      order: 2;
+    }
+    &:nth-of-type(4) {
+      margin-top: 54px;
+      order: 4;
+    }
+  }
+
+  .text--pos2 {
+    padding-top: 22px;
+  }
+
+  .ava--icon {
+    &::before {
+      right: 58px;
+    }
+  }
+
+  .holiday {
+    width: 748px;
+    padding-top: 94px;
+  }
+
+  .picture {
+    width: 236px;
+    &:nth-of-type(1) {
+      background-position: -40px;
+    }
+    &:nth-of-type(2) {
+      background-position: -40px;
+    }
+    &:nth-of-type(3) {
+      background-position: -20px;
+    }
+    &:nth-of-type(4) {
+      background-position: -30px;
+    }
+    &:nth-of-type(5) {
+      width: 492px;
+      background-position: -70px;
+    }
+    &:nth-of-type(6) {
+      width: 492px;
+    }
+    &:nth-of-type(7) {
+      background-image: url("../images/trav.png");
+    }
+  }
+
+  .caption {
+    text-align: center;
+  }
+
+  .w--50 {
+    width: 206px;
+  }
+
+  .p--bottom {
+    width: 200px;
+    padding-bottom: 26px;
+    text-align: center;
+  }
+
+  .crate {
+    padding-top: 94px;
+  }
+
+  .footer-content {
+    padding: 37px 34px 30px 39px;
+    &__links {
+      padding-left: 55px;
+      padding-top: 2px;
+    }
+    &__partners {
+      padding-right: 11px;
+    }
+  }
+}
